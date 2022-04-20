@@ -1,9 +1,83 @@
 <?php
+
 session_start();
 
 $error = array();
 
-include_once('./includes/dbh.inc.php');
+include_once('dbh.inc.php');
+
+if (isset($_POST['std_info'])) {
+
+
+
+    $acd_num = mysqli_real_escape_string($conn, strip_tags($_POST['students']));
+
+    $sql = "SELECT * From `violations` inner join `violations_type` on violations.`violation_type_id` = `violations_type`.`violation_type_id` inner join `students` on violations.`student_ID` = students.`student_ID` where students.student_ID = $acd_num";
+
+
+
+
+    $result = mysqli_query($conn, $sql);
+    $resultCheck = mysqli_num_rows($result);
+
+
+    if ($resultCheck > 0) {
+
+        while ($row = mysqli_fetch_assoc($result)) {
+            $violation_id = $row['violation_id'];
+            $student_id = $row['student_ID'];
+            $violation_type_id = $row['violation_type_id'];
+            $violation_name = $row['violation_name'];
+            $violation_description = $row['violation_description'];
+            $student_name = $row['student_name'];
+            $student_email = $row['student_email'];
+
+            echo
+
+            '
+                
+<ul class="list-group list-group-flush">
+<li class="list-group-item">رقم المخالفة: ' . $violation_id . '</li>
+<li class="list-group-item">رقم المتدربة: ' . $student_id . '</li>
+
+  <li class="list-group-item">نوع المخالفة:' . $violation_name . '</li>
+  <li class="list-group-item">وصف المخالفة:' . $violation_description . '</li>
+  <li class="list-group-item">اسم المتدربة:' . $student_name . '</li>
+  <li class="list-group-item">الايميل:' . $student_email . '</li>
+
+</ul>
+
+
+
+';
+        }
+    }
+}
+
+if(isset($_POST['send_vio'])) {
+
+
+    $acd2_num = mysqli_real_escape_string($conn, strip_tags($_POST['students']));
+    $violation_type = $_POST['categories'];
+    if (!empty($_POST['categories'])) {
+        $selected = $_POST['categories'];
+        echo 'You have chosen: ' . $selected;
+    } else {
+        echo 'Please select the value.';
+    }
+
+    $sql = "INSERT INTO violations (student_ID, violation_type_id) VALUES ($acd_num, $violation_type)";
+//    
+//    if (mysqli_query($conn, $sql)) {
+//        echo "New record created successfully";
+//    } else {
+//        echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+//    }
+//
+//    mysqli_close($conn);
+}
+
+
 
 if (isset($_POST['log_in'])) {
 
@@ -37,10 +111,10 @@ if (isset($_POST['log_in'])) {
 
             if ($userType == 'teacher') {
                 $_SESSION['success'] = "تم تسجيل الدخول بنجاح";
-                header("Location: T_Service.php");
+                header("Location: teacher/T_Service.php");
             } else if ($userType == 'student') {
                 $_SESSION['success'] = "تم تسجيل الدخول بنجاح";
-                header("Location: S_Service.php");
+                header("Location: student/S_Service.php");
             } else {
                 echo '<h1>Error</h1>';
             }

@@ -19,7 +19,7 @@ if (isset($_GET['logout'])) {
         <title>خدمات المتدربة</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="../style/style.css">
         <style>
 
 
@@ -28,8 +28,11 @@ if (isset($_GET['logout'])) {
     </head>
     <body>
         <div class="header">
-            <img class="logo" src="images/logo.svg" alt="" style="width:170px;margin-right: 5%;"/>
+            <a href="S_Service.php">
+                <img class="logo" src="../images/logo.svg" alt="" style="width:170px;margin-right: 5%;"/></a>   
             <h3>الكلية التقنية الرقمية للبنات بالأحساء</h3>
+            <a href="../logout.php">خروج</a>
+
         </div>
         <div class="separador"></div>
         <div class="contant">
@@ -49,10 +52,10 @@ if (isset($_GET['logout'])) {
                                     <td>
                                         <div class="st-box">
                                             <div class="barst"></div>
-                                            <img src="images/gu.png" alt="1"/>
+                                            <img src="../images/gu.png" alt="1"/>
                                             <h1> الارشاد</h1>
                                             <p> تقدم هذه الخدمة لتواصل مع الارشاد.</p>
-                                            <a class="btn-st" href="guidance.html">الانتقال الى هذه الخدمة</a>
+                                            <a class="btn-st" href="guidance.php">الانتقال الى هذه الخدمة</a>
                                         </div>
                                     </td>
 
@@ -60,19 +63,19 @@ if (isset($_GET['logout'])) {
                                     <td>
                                         <div class="st-box">
                                             <div class="barst"></div>
-                                            <img alt="2"src="images/tel.png"/>
+                                            <img alt="2"src="../images/tel.png"/>
                                             <h1>روابط التلقرام</h1>
                                             <p>تقدم هذه الخدمة روابط الشعب لتواصل مع المدربات.</p>
-                                            <a class="btn-st" href="#">الانتقال الى هذه الخدمة</a>
+                                            <a class="btn-st" href="links.php">الانتقال الى هذه الخدمة</a>
                                         </div>
                                     </td>
                                     <td>
                                         <div class="st-box">
                                             <div class="barst"></div>
-                                            <img src="images/infractionST.png" alt="1"/>
+                                            <img src="../images/infractionST.png" alt="1"/>
                                             <h1> المخالفات</h1>
                                             <p>تقدم هذه الخدمة معرفة مخالفات المتدربة وفق اللوائح .</p>
-                                            <a class="btn-st" href="violation.html">الانتقال الى هذه الخدمة</a>
+                                            <a class="btn-st" href="violation.php">الانتقال الى هذه الخدمة</a>
                                         </div>
                                     </td>
                                 </tr>
@@ -80,10 +83,10 @@ if (isset($_GET['logout'])) {
                                     <td>
                                         <div class="st-box">
                                             <div class="barst"></div>
-                                            <img src="images/calculatorST.png" alt="1"/>
+                                            <img src="../images/calculatorST.png" alt="1"/>
                                             <h1> حاسبة الحرمان </h1>
                                             <p> تقدم هذه الخدمة حاسبه لمعرفة كم المتبقي للغياب قبل الحصول ع الحرمان.</p>
-                                            <a class="btn-st" href="calculator.html">الانتقال الى هذه الخدمة</a>
+                                            <a class="btn-st" href="calculator.php">الانتقال الى هذه الخدمة</a>
                                         </div>
                                     </td>
 
@@ -91,7 +94,7 @@ if (isset($_GET['logout'])) {
                                     <td>
                                         <div class="st-box">
                                             <div class="barst"></div>
-                                            <img src="images/rayatST.png" alt="1"/>
+                                            <img src="../images/rayatST.png" alt="1"/>
                                             <h1> رايات</h1>
                                             <p> تقدم هذه الخدمة الأنتقال الى موقع رايات .</p>
                                             <a class="btn-st" href="#">الانتقال الى هذه الخدمة</a>
@@ -100,7 +103,7 @@ if (isset($_GET['logout'])) {
                                     <td>
                                         <div class="st-box">
                                             <div class="barst"></div>
-                                            <img src="images/scheuleST.png" alt="1"/>
+                                            <img src="../images/scheuleST.png" alt="1"/>
                                             <h1> الجدول التدريبي</h1>
                                             <p> تقدم هذه الخدمة رؤية الجدول التدريبي الخاص بالمتدربه .</p>
                                             <a class="btn-st" href="#">الانتقال الى هذه الخدمة</a>

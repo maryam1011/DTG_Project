@@ -508,3 +508,170 @@ a{
 #tablevio button:hover {
   box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
 }
+
+/*.list-group {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .125)
+}
+
+.list-group-flush .list-group-item {
+    border-right-width: 0;
+    border-left-width: 0;
+    border-radius: 0
+}*/
+
+
+.card {
+  width: 157px;                 /* Set width of cards */
+  border: 1px solid #8079db;    /* Set up Border */
+  border-radius: 4px;           /* Slightly Curve edges */
+  overflow: hidden;             /* Fixes the corners */
+  display: flex;                /* Children use Flexbox */
+  flex-direction: column;       /* Rotate Axis */
+  margin-top: -1120px;
+}
+.card2 {
+  width: 157px;                 /* Set width of cards */
+  border: 1px solid #8079db;    /* Set up Border */
+  border-radius: 4px;           /* Slightly Curve edges */
+  overflow: hidden;             /* Fixes the corners */
+  display: flex;                /* Children use Flexbox */
+  flex-direction: column;       /* Rotate Axis */
+  margin-top: -990px;
+}
+.card3 {
+  width: 157px;                 /* Set width of cards */
+  border: 1px solid #8079db;    /* Set up Border */
+  border-radius: 4px;           /* Slightly Curve edges */
+  overflow: hidden;             /* Fixes the corners */
+  display: flex;                /* Children use Flexbox */
+  flex-direction: column;       /* Rotate Axis */
+  margin-top: -844px;
+}
+.card4 {
+  width: 157px;                 /* Set width of cards */
+  border: 1px solid #8079db;    /* Set up Border */
+  border-radius: 4px;           /* Slightly Curve edges */
+  overflow: hidden;             /* Fixes the corners */
+  display: flex;                /* Children use Flexbox */
+  flex-direction: column;       /* Rotate Axis */
+  margin-top: -706px;
+}
+.card5 {
+  width: 157px;                 /* Set width of cards */
+  border: 1px solid #8079db;    /* Set up Border */
+  border-radius: 4px;           /* Slightly Curve edges */
+  overflow: hidden;             /* Fixes the corners */
+  display: flex;                /* Children use Flexbox */
+  flex-direction: column;       /* Rotate Axis */
+  margin-top: -640px;
+}
+.card6 {
+  width: 257px;                 /* Set width of cards */
+  border: 1px solid #8079db;    /* Set up Border */
+  border-radius: 4px;           /* Slightly Curve edges */
+  overflow: hidden;             /* Fixes the corners */
+  display: flex;                /* Children use Flexbox */
+  flex-direction: column;       /* Rotate Axis */
+  margin-top: -570px;
+}
+.card7 {
+  width: 257px;                 /* Set width of cards */
+  border: 1px solid #8079db;    /* Set up Border */
+  border-radius: 4px;           /* Slightly Curve edges */
+  overflow: hidden;             /* Fixes the corners */
+  display: flex;                /* Children use Flexbox */
+  flex-direction: column;       /* Rotate Axis */
+  margin-top: -430px;
+}
+.card8 {
+  width: 157px;                 /* Set width of cards */
+  border: 1px solid #8079db;    /* Set up Border */
+  border-radius: 4px;           /* Slightly Curve edges */
+  overflow: hidden;             /* Fixes the corners */
+  display: flex;                /* Children use Flexbox */
+  flex-direction: column;       /* Rotate Axis */
+  margin-top: -300px;
+}
+.card9 {
+  width: 157px;                 /* Set width of cards */
+  border: 1px solid #8079db;    /* Set up Border */
+  border-radius: 4px;           /* Slightly Curve edges */
+  overflow: hidden;             /* Fixes the corners */
+  display: flex;                /* Children use Flexbox */
+  flex-direction: column;       /* Rotate Axis */
+  margin-top: -120px;
+}
+.card-header {
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  border-bottom: 1px solid #8079db;
+  background-color: #e0dffd;
+  padding: 5px 10px;
+      font-family: 'Amiri', serif !important;
+}
+.card-main {
+  display: flex;              /* Children use Flexbox */
+  flex-direction: column;     /* Rotate Axis to Vertical */
+  justify-content: center;    /* Group Children in Center */
+  align-items: center;        /* Group Children in Center (+axis) */
+  padding: 15px 0;            /* Add padding to the top/bottom */
+}
+
+
+/* CSS */
+.card-main .button-8 {
+  background-color: #e1ecf4;
+  border-radius: 3px;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #39739d;
+  cursor: pointer;
+  display: inline-block;
+      font-family: 'Amiri', serif !important;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 5px .5em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.card-main .button-8:hover,
+.card-main .button-8:focus {
+  background-color: #b3d3ea;
+  color: #2c5777;
+}
+
+.card-main .button-8:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.card-main .button-8:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+}

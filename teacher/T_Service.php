@@ -19,13 +19,15 @@ if (isset($_GET['logout'])) {
         <title>خدمات المدربة</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="../style/style.css">
 
     </head>
     <body>
         <div class="header">
-            <img class="logo" src="images/logo.svg" alt="" style="width:170px;margin-right: 5%;"/>
-            <h3>الكلية التقنية الرقمية للبنات بالأحساء</h3>
+            <a href="T_Service.php">
+                <img class="logo" src="../images/logo.svg" alt="" style="width:170px;margin-right: 5%;"/></a>
+                <h3>الكلية التقنية الرقمية للبنات بالأحساء</h3>
+            <a href="../logout.php">خروج</a>
         </div>
         <div class="separador"></div>
         <div class="contant">
@@ -45,10 +47,10 @@ if (isset($_GET['logout'])) {
                                     <td>
                                         <div class="s-box">
                                             <div class="bar"></div>
-                                            <img src="images/list.png" alt="1"/>
+                                            <img src="../images/list.png" alt="1"/>
                                             <h1> المخالفات</h1>
                                             <p> تقدم هذه الخدمة لرصد مخالفات الزي والمخالفات الاخرى.</p>
-                                            <a class="s-btn" href="#">الانتقال الى هذه الخدمة</a>
+                                            <a class="s-btn" href="violation.php">الانتقال الى هذه الخدمة</a>
                                         </div>
                                     </td>
 
@@ -56,7 +58,7 @@ if (isset($_GET['logout'])) {
                                     <td>
                                         <div class="s-box">
                                             <div class="bar"></div>
-                                            <img alt="2"src="images/tel.png"/>
+                                            <img alt="2"src="../images/tel.png"/>
                                             <h1>روابط التلقرام</h1>
                                             <p>تقدم هذه الخدمة روابط الشعب لتواصل مع المتدربات.</p>
                                             <a class="s-btn" href="#">الانتقال الى هذه الخدمة</a>
@@ -65,7 +67,7 @@ if (isset($_GET['logout'])) {
                                     <td>
                                         <div class="s-box">
                                             <div class="bar"></div>
-                                            <img src="images/gu.png" alt="1"/>
+                                            <img src="../images/gu.png" alt="1"/>
                                             <h1> الارشاد</h1>
                                             <p>تقدم هذه الخدمة التواصل مع الارشاد.</p>
                                             <a class="s-btn" href="#">الانتقال الى هذه الخدمة</a>
@@ -76,7 +78,7 @@ if (isset($_GET['logout'])) {
                                     <td>
                                         <div class="s-box">
                                             <div class="bar"></div>
-                                            <img src="images/at.png" alt="1"/>
+                                            <img src="../images/at.png" alt="1"/>
                                             <h1> الحضور والغياب </h1>
                                             <p> تقدم هذه الخدمة تحضير الطالبات ورصد الحضور والغياب.</p>
                                             <a class="s-btn" href="#">الانتقال الى هذه الخدمة</a>
@@ -87,7 +89,7 @@ if (isset($_GET['logout'])) {
                                     <td>
                                         <div class="s-box">
                                             <div class="bar"></div>
-                                            <img src="images/sc.jpg" alt="1"/>
+                                            <img src="../images/sc.jpg" alt="1"/>
                                             <h1> الجدول</h1>
                                             <p> تقدم هذه الخدمة الأطلاع على جدول المواد والمحاضرات وارقام المعامل.</p>
                                             <a class="s-btn" href="#">الانتقال الى هذه الخدمة</a>

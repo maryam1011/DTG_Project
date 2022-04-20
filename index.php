@@ -1,95 +1,75 @@
-<?php
-include_once('includes/dbh.inc.php');
-include_once('includes/pd.inc.php');
-?>
-
-<!DOCTYPE html>
-
-<html lang="ar" dir="rtl">
-    <head>
-        <title>تسجيل الدخول </title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style/style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    </head>
-    <body>
-
-
-        <div class="header">
-            <img class="logo" src="images/logo.svg" alt="" style="width:170px;margin-right: 5%;"/>
-            <h3>الكلية التقنية الرقمية للبنات بالأحساء</h3>
-        </div>
-        <div class="separador"></div>
-        <div class="overlay">
-
-            <form name="myForm" method="post" action="index.php" class="form-control">
-                <span style="color:red;"><strong><?php include('error.php'); ?></strong></span>
-
-                <div class="con">
-                    <h2>تسجيل الدخول</h2>
-                    <div class="field-set">
-                        <span class="input-item">
-                            <i class="fa fa-user-circle"></i>
+<html dir='rtl'>
+  <head>
+  <link rel="stylesheet" href="style.css">
+ 
+  </head>
+  <body><div class="area"></div><nav class="main-menu">
+            <ul>
+                <li>
+                    <a href="index.php">
+                        <i class="fa fa-home fa-2x"></i>
+                        <span class="nav-text">
+                            الرئيسية
                         </span>
-
-                        <input class="form-input" id="username" name="username" type="text" placeholder="اسم المستخدم" required/>
-                        <br>
-                        <span class="input-item">
-                            <i class="fa fa-key"></i>
+                    </a>
+                  
+                </li>
+                <li class="has-subnav">
+                    <a href="teacher/violation.php">
+                        <i class="fa fa-shield fa-2x"></i>
+                        <span class="nav-text">
+                            المخالفات
                         </span>
-                        <input class="form-input" id="password" name="password" type="password" placeholder="كلمة المرور" required/>
+                    </a>
+                    
+                </li>
+                <li class="has-subnav">
+                    <a href="teacher/links.php">
+                       <i class="fa fa-list fa-2x"></i>
+                        <span class="nav-text">
+                            روابط التلقرام
+                        </span>
+                    </a>
+                    
+                </li>
+                <li class="has-subnav">
+                    <a href="teacher/guidance.php">
+                       <i class="fa fa-folder-open fa-2x"></i>
+                        <span class="nav-text">
+                            الارشاد
+                        </span>
+                    </a>
+                   
+                </li>
+                <li>
+                    <a href="teacher/calculator.php">
+                        <i class="fa fa-bar-chart-o fa-2x"></i>
+                        <span class="nav-text">
+                            الحضور والغياب
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-font fa-2x"></i>
+                        <span class="nav-text">
+                           الجدول
+                        </span>
+                    </a>
+                </li>
+                
+            </ul>
 
-
-                        <br>
-                        <label>هل انتي مدربة او متدربة؟</label>
-                        <br>
-                        <div id="icon">
-                            <img src="images/techer.png" class="users">
-                            <input required="" type="radio" name="user" value="user1" id="teacher" checked/> <span class="spuser">مدربة</span>
-                            <img src="images/stu.png" class="users">
-                            <input type="radio" name="user" value="user2" id="trainer"/>  <span class="spuser">متدربة</span>
-                        </div>
-                        <input class="log-in" id="log_in" name="log_in" type="submit" value="دخول">
-
-                    </div>
-
-                </div>
-            </form>
-        </div>
-
-        <script>
-
-//            document.getElementById('submit').onclick = function () {
-//                this.disabled = true;
-//
-//                let x = document.forms["myForm"]["username"].value;
-//                let y = document.forms["myForm"]["password"].value;
-//                if (x == "") {
-//                    alert("يجب ادخال اسم المستخدم");
-//
-//                } else if (y == "") {
-//                    alert("يجب ادخال كلمة السر");
-//
-//                } else if (x != "" && y != "") {
-//                    var teacher = document.getElementById("teacher");
-//                    var trainer = document.getElementById("trainer");
-//
-//                    if (teacher.checked == true) {
-//
-//                        location.href = "http://localhost:8383/IT/coachServise.html"
-//                    } else if (trainer.checked == true) {
-//                        location.href = "http://localhost:8383/IT/stServise.html";
-//                    } else {
-//                        alert("يرجى اختيار النوع");
-//                    }
-//
-//                }
-//
-//            }
-        </script>
-
-    </body>
-</html>
-
+            <ul class="logout">
+                <li>
+                   <a href="logout.php">
+                         <i class="fa fa-power-off fa-2x"></i>
+                        <span class="nav-text">
+                            خروج
+                        </span>
+                    </a>
+                </li>  
+            </ul>
+        </nav>
+  </body>
+    </html>
