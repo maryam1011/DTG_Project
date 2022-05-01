@@ -1,1 +1,8 @@
-<?php header("Location: login.php"); ?>
+<?php
+
+
+
+echo 'weclome'
+
+
+?>
