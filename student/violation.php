@@ -88,8 +88,9 @@
                     </div>
                     <br>
                 </section>
+                <div class="viloation_student">
                 <?php include_once('../includes/pd.inc.php'); ?>
-
+                                            </div>
             </div>
         </div>
            <script>
