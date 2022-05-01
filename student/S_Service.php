@@ -97,7 +97,7 @@ if (isset($_GET['logout'])) {
                                             <img src="../images/rayatST.png" alt="1"/>
                                             <h1> رايات</h1>
                                             <p> تقدم هذه الخدمة الأنتقال الى موقع رايات .</p>
-                                            <a class="btn-st" href="#">الانتقال الى هذه الخدمة</a>
+                                            <a class="btn-st" href="https://www.tvtc.gov.sa/rayat.html">الانتقال الى هذه الخدمة</a>
                                         </div>
                                     </td>
                                     <td>
