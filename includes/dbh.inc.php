@@ -18,12 +18,6 @@
  -->
 
 <?php
-$i++;
-$cfg["Servers"][$i]["host"] = "eu-cdbr-west-02.cleardb.net"; //provide hostname
-$cfg["Servers"][$i]["user"] = "b9b05c349b0b76"; //user name for your remote server
-$cfg["Servers"][$i]["password"] = "b93e67c4"; //password
-$cfg["Servers"][$i]["auth_type"] = "config"; // keep it as config
-
 
 //Get Heroku ClearDB connection information
 $cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
