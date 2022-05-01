@@ -675,3 +675,16 @@ a{
   box-shadow: none;
   color: #2c5777;
 }
+
+
+.viloation_student > ul{
+list-style-type: none;
+text-align: center;
+font-size: 18px;
+margin-bottom: 15px;
+border: 1px solid black;
+padding: 20px;
+width: 100%;
+
+
+}
