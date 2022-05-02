@@ -31,9 +31,10 @@ if (isset($_GET['logout'])) {
 <body>
     <div class="header">
         <a href="S_Service.php">
-            <img class="logo" src="../images/logo.svg" alt="" style="width:170px;margin-right: 5%;" /></a>
+            <img class="logo" src="../images/logo.svg" alt=""/></a>
         <h3>الكلية التقنية الرقمية للبنات بالأحساء</h3>
-        <a href="../logout.php">خروج</a>
+     
+        <a href="../logout.php" id="logout_btn">خروج</a>
 
     </div>
     <div class="separador"></div>
