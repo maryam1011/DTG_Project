@@ -25,9 +25,9 @@ if (isset($_GET['logout'])) {
     <body>
         <div class="header">
             <a href="T_Service.php">
-                <img class="logo" src="../images/logo.svg" alt="" style="width:170px;margin-right: 5%;"/></a>
+                <img class="logo" src="../images/logo.svg" alt=""/></a>
                 <h3>الكلية التقنية الرقمية للبنات بالأحساء</h3>
-            <a href="../logout.php">خروج</a>
+            <a href="../logout.php" id="logout_btn">خروج</a>
         </div>
         <div class="separador"></div>
         <div class="contant">
@@ -56,7 +56,8 @@ if (isset($_GET['logout'])) {
                                             <p>تقدم هذه الخدمة روابط الشعب لتواصل مع المتدربات.</p>
                                             <a class="s-btn" href="#">الانتقال الى هذه الخدمة</a>
                                         </div>
-                                   
+</div>
+                                   <div class="row">
                                         <div class="column">
                                             <div class="bar"></div>
                                             <img src="../images/gu.png" alt="1" style="width:100% " />
@@ -65,14 +66,14 @@ if (isset($_GET['logout'])) {
                                             <a class="s-btn" href="#">الانتقال الى هذه الخدمة</a>
                                         </div>
                                    
-                                        <div class="column">
+                                        <!-- <div class="column">
                                             <div class="bar"></div>
                                             <img src="../images/at.png" alt="1" style="width:100% " />
                                             <h1> الحضور والغياب </h1>
                                             <p> تقدم هذه الخدمة تحضير الطالبات ورصد الحضور والغياب.</p>
                                             <a class="s-btn" href="#">الانتقال الى هذه الخدمة</a>
                                         </div>
-                                  
+                                   -->
                                         <div class="column">
                                             <div class="bar"></div>
                                             <img src="../images/sc.jpg" alt="1" style="width:100% " />
