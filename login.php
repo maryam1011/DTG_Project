@@ -20,7 +20,7 @@ include_once('includes/pd.inc.php');
 
 
     <div class="header">
-        <img class="logo" src="images/logo.svg" alt="" style="width:170px;margin-right: 5%;" />
+        <img class="logo" src="images/logo.svg" alt="" />
         <h3>الكلية التقنية الرقمية للبنات بالأحساء</h3>
     </div>
     <div class="separador"></div>
