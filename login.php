@@ -19,10 +19,7 @@ include_once('includes/pd.inc.php');
 <body>
 
 
-    <div class="header">
-        <img class="logo" src="images/logo.svg" alt="" />
-        <h3>الكلية التقنية الرقمية للبنات بالأحساء</h3>
-    </div>
+    <?php include('header.php');?>
     <div class="separador"></div>
     <div class="overlay">
 
