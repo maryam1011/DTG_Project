@@ -1,4 +1,3 @@
-<script src="https://cdn.tailwindcss.com"></script>
 
 
 <header class="text-gray-600 body-font">
@@ -139,6 +138,12 @@
             <h3>الكلية التقنية الرقمية للبنات بالأحساء</h3>
 
             </nav>
-          
+            <a href="../logout.php"><button
+                class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
+                الخروج
+                </svg>
+                
+            </button></a>
         </div>
     </header>
+
