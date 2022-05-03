@@ -23,12 +23,7 @@ if (isset($_GET['logout'])) {
 
     </head>
     <body>
-        <div class="header">
-            <a href="T_Service.php">
-                <img class="logo" src="../images/logo.svg" alt=""/></a>
-                <h3>الكلية التقنية الرقمية للبنات بالأحساء</h3>
-            <a href="../logout.php" id="logout_btn">خروج</a>
-        </div>
+    <?php include('header.php')?>
         <div class="separador"></div>
         <div class="contant">
     

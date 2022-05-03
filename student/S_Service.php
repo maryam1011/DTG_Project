@@ -29,14 +29,8 @@ if (isset($_GET['logout'])) {
 </head>
 
 <body>
-    <div class="header">
-        <a href="S_Service.php">
-            <img class="logo" src="../images/logo.svg" alt=""/></a>
-        <h3>الكلية التقنية الرقمية للبنات بالأحساء</h3>
-     
-        <a href="../logout.php" id="logout_btn">خروج</a>
+    <?php include('header.php')?>
 
-    </div>
     <div class="separador"></div>
     <div class="contant">
 
