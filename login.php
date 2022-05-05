@@ -37,7 +37,7 @@ include_once('includes/pd.inc.php');
                     </svg>
                 </div>
                 <h3 class="text-2xl font-bold text-center">تسجيل الدخول لحسابك</h3>
-                <form action="login.php" method="post" name="myForm">
+                <form action="login.php" method="post" name="myForm" autocomplete="on">
                     <div class="mt-4">
                         <div>
                             <label class="block" for="username">اسم المستخدم<label>
