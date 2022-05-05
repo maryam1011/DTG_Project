@@ -24,7 +24,7 @@
 
         <div class="contant">
             <div class="container-fluid">
-                <section class="vio_services">
+                <section class="tech_services">
 
 
                     <!--services-box-container------------------->

@@ -21,7 +21,7 @@
         <div class="separador"></div>
         <div class="contant" style="padding-left: 1%;padding-right: 1.5%;;padding-top: 1.5%;">
             <div class="container-fluid">
-                <section class="services">
+                <section class="tech_services">
 
                     <div class="s-heading">
                         <h1 style="color:#023f71;">جدول الساعات المكتبية لوحدة التوجيه والارشاد</h1>
@@ -34,6 +34,7 @@
                                 <table>
                                     <tr><td>
                                             <h1 style="color:black;float: right;border-left: 5px solid #de6767 ;margin-top:5%;">للتواصل المباشر للحالات الطارئة..</h1>
+                                        
                                         </td></tr>
                                     <tr><td>   <img src="../images/arra.gif" alt="الباركود" width="160px" style="margin-top:-9px;margin-right: 25px;"/></td></tr>
                                     <tr><td>

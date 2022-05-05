@@ -17,12 +17,11 @@
 <body>
     <script src="js/jquery-3.4.1.js"></script>
 
-    <?php include('header.php')?>
-
+<?php include('header.php')?>
     <div class="separador"></div>
     <div class="contant">
 
-        <section class="services">
+        <section class="tech_services">
 
             <div class="s-heading">
                 <table>
