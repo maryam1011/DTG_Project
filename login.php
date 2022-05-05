@@ -46,7 +46,7 @@ include_once('includes/pd.inc.php');
                         </div>
                         <div class="mt-4">
                             <label class="block">كلمة المرور<label>
-                                    <input type="password" placeholder="Password" name="password"
+                                    <input type="password" placeholder="كلمة المرور" name="password"
                                         class="w-full px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600">
                         </div>
                     <span style="color:red;"><strong><?php include('error.php'); ?></strong></span>
