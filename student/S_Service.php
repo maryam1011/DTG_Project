@@ -94,7 +94,7 @@ if (isset($_GET['logout'])) {
                 <img src="../images/scheuleST.png" alt="1" style="width:100%" />
                 <h1> الجدول التدريبي</h1>
                 <p> تقدم هذه الخدمة رؤية الجدول التدريبي الخاص بالمتدربه .</p>
-                <a class="btn-st" href="timetabel.php">الانتقال الى هذه الخدمة</a>
+                <a class="btn-st" href="timetable.php">الانتقال الى هذه الخدمة</a>
             </div>
 
 
